@@ -1,6 +1,6 @@
 <?php
 
-require_once 'menu.class.php';
+require_once 'MenuClass.php';
 require_once 'MenuFactory.php';
 
 $menus = MenuFactory::makeMenus();
@@ -15,7 +15,7 @@ $menus = MenuFactory::makeMenus();
 </head>
 <body>
 <h1>メニュー</h1>
-<form method="post" action="confirm_menu.php">
+<form method="post" action="confirmMenu.php">
     <div>
         <div>
             <div>

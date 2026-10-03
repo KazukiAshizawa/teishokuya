@@ -1,5 +1,5 @@
 <?php
-require_once 'menu.class.php';
+require_once 'MenuClass.php';
 require_once 'MenuFactory.php';
 
 
